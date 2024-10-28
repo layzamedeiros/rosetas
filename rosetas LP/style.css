@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Railey-PersonalUse';
+    src: url('Railey-PersonalUse.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+--cor-primaria: #528A7D;
+--cor-secundaria: #F7EDE2;
+--cor-terciaria: #1C332E;
+--cor-hover: #090C0B;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo__titulo { 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Railey-PersonalUse';
+}
+
+.logo__rosetas{
+width: 40%;
+}
+
+.logo_zap {
+    flex-direction: row-reverse;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    height: 40px;
+}
+
+a.Paginas {
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+footer {
+    background-color: var(--cor-terciaria);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
