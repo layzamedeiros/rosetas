@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosetas Personalizados</title>
+    <link rel="shortcut icon" href="ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cabecalho.css">
+    <link rel="stylesheet" href="rodape.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="img/icone-menu.png" alt="Ícone do menu">
+    </div>
+    <nav>
+      <ul>
+        <li><a class="Paginas" href="rosetas.html">Home</a></li>
+        <li><a class="Paginas" href="produtos.html">Produtos</a></li>
+        <li><a class="Paginas" href="sobre.html">Sobre</a></li>
+        <li><a class="Paginas" href="contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Entre em Contato Conosco</h2>
+
+    <form action="#" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required placeholder="Digite seu número" pattern="[0-9]{2}[0-9]{5}[0-9]{4}" maxlength="11" title="Telefone no formato: (XX) XXXXX-XXXX">
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required placeholder="Qual é o assunto?">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required placeholder="Escreva sua mensagem" rows="6"></textarea>
+
+        <label for="data-evento">Data do seu evento:</label>
+        <input type="date" id="data-evento" name="data_evento" required>
+
+        <input type="submit" value="Enviar Mensagem">
+    </form>
+
+    <p style="text-align: center; margin-top: 30px;">Ou nos mande uma mensagem nas nossas redes sociais clicando nos ícones abaixo:</p>
+
+    <div class="social-icons">
+        <a href="https://www.instagram.com/rosetapersonalizados?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" width="40" height="40"></a>
+      
+        <a href="https://api.whatsapp.com/send?phone=SEUNUMERO&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20empresa." target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50" height="50"></a>
+    </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <div>
+      <img src="img/ico.ico" alt="Logo Rosetas Personalizados">
+    </div>
+    <div>
+      <a href="rosetas.html">Home</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contatos.html">Contatos</a>
+    </div>
+    <div>
+      <img src="img/ico-instagram.png" alt="Ícone Instagram">
+      <img src="img/ico-whatsapp.png" alt="Ícone WhatsApp">
+    </div>
+    <div class="container">
+      <p>© Copyright 2024 all rights reserved by Rosetas Personalizados</p>
+    </div>
+  </footer>
+
+</body>
+</html>
